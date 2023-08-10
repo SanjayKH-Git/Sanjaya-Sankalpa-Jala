@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Sanjaya-Sankalpa-Jala/static/css/main.0862e774.css",
+    "main.js": "/Sanjaya-Sankalpa-Jala/static/js/main.fd306ece.js",
+    "static/media/bannerImg.png": "/Sanjaya-Sankalpa-Jala/static/media/bannerImg.156c74c6f4f1ffac6e26.png",
+    "static/media/projectTwo.png": "/Sanjaya-Sankalpa-Jala/static/media/projectTwo.aa5d92dfcc91173e3f49.png",
+    "static/media/projectSix.png": "/Sanjaya-Sankalpa-Jala/static/media/projectSix.7b2368dd6d834e1d5d3d.png",
+    "static/media/projectOne.png": "/Sanjaya-Sankalpa-Jala/static/media/projectOne.6f9ba3cc8c4b915149e1.png",
+    "static/media/projectFive.png": "/Sanjaya-Sankalpa-Jala/static/media/projectFive.ee38f1cc6d413bd681d8.png",
+    "static/media/contactImg.png": "/Sanjaya-Sankalpa-Jala/static/media/contactImg.c0c32b234ad260bf810c.png",
+    "static/media/projectFour.png": "/Sanjaya-Sankalpa-Jala/static/media/projectFour.52fa72613f667c213a4b.png",
+    "static/media/projectThree.png": "/Sanjaya-Sankalpa-Jala/static/media/projectThree.1c9ac500161061b7b56c.png",
+    "static/media/testimonialOne.jpg": "/Sanjaya-Sankalpa-Jala/static/media/testimonialOne.a70003b7c3a357895d2c.jpg",
+    "static/media/logo.png": "/Sanjaya-Sankalpa-Jala/static/media/logo.2fb0606b5d1139847252.png",
+    "index.html": "/Sanjaya-Sankalpa-Jala/index.html",
+    "main.0862e774.css.map": "/Sanjaya-Sankalpa-Jala/static/css/main.0862e774.css.map",
+    "main.fd306ece.js.map": "/Sanjaya-Sankalpa-Jala/static/js/main.fd306ece.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0862e774.css",
+    "static/js/main.fd306ece.js"
+  ]
+}
