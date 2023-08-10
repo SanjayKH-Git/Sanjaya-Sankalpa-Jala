@@ -1,6 +1,6 @@
 import { AiFillAppstore } from "react-icons/ai";
-import {  FaBrain} from "react-icons/fa";
-import { SiProgress} from "react-icons/si";
+import { FaBrain } from "react-icons/fa";
+import { SiProgress } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 import { MdAnalytics } from "react-icons/md";
 
@@ -8,37 +8,37 @@ import { MdAnalytics } from "react-icons/md";
 export const featuresData = [
   {
     id: 1,
-    title: "Project Management",
-    des: "Want to gain real-life experience of managing a complete software project cycle.",
+    title: "Web Scraping",
+    des: "I can scrape any dynamic websites according to requirements and convert the extracted data into various formats such as CSV, JSON, or directly store it in a database.",
   },
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Will learn this soon in near future !",
+    icon: <CgWebsite />,
+    title: "Web Development",
+    des: "specialized in creating custom mobile-friendly, and responsive Full-Stack web applications efficiently within a short time frame",
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Will learn this soon in near future !",
+    icon: <MdAnalytics />,
+    title: "Data Analysis",
+    des: "I can do cleaning, Exctracting, Visualizing data; Identifying pattern and Statistical operations on the data with my strong Experience in Data Science driven Jobs!",
   },
   {
     id: 4,
-    icon: <CgWebsite />,
-    title: "Web Development",
-    des: "Have completed a MERN stack development course from Udemy. Have developed various projects and hosted them too, check them on my github.",
+    icon: <SiProgress />,
+    title: "Automation-Tool Development",
+    des: "Expertize in building Automation Tool; Previously developed Tools which reduced massive Amount of Time and Human Efforts",
   },
   {
     id: 5,
-    icon: <MdAnalytics />,
-    title: "Data Analyst",
-    des: "Learned data extraction,cleaning, pattern identification & web scrapping skills during my internship. ALso, trained the ML models.",
+    icon: <AiFillAppstore />,
+    title: "Computer-Vision / Image Processing Solutions",
+    des: "I can build Computer Vision based Apps such as \"Object Detection\", \"Text Extraction\", \"Real-Time Monitoring Systems\"; Even it can be integrated with Powerful Deep Learning or AI Techniques for efficiency.",
   },
   {
     id: 6,
     icon: <FaBrain />,
     title: "Machine Learning",
-    des: "Have completed a ML course from Acmegrade(Partner Mood Indigo IITB). Have developed some projects, check them on my github.",
+    des: "Equipped with the skills to proficiently preprocess and train machine learning models using a diverse range of algorithms. From data preparation to model fine-tuning, I can harness the power of machine learning to extract insights and make informed decisions.",
   },
 ];
