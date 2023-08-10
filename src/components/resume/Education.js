@@ -7,32 +7,37 @@ const Education = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-10"
     >
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2005 - 2024</p>
+          <p className="text-sm text-designColor tracking-[4px]">2016 - 2021</p>
           <h2 className="text-3xl md:text-4xl font-bold">Educational Qualification</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BTech in Information Technology"
-            subTitle="Veermata Jijabai Technological Institute (2020 - 2024)"
-            result="7.5 CPI"
-            des="Studied IT related subjects like Operating Systems, DBMS, OOPS, ML, Web Development, AI, DSA, Compiler Design etc."
+            title="Master Of Science (Computer Science)"
+            subTitle="Mangalore University, Mangalore"
+            result="JUN 2019 - DEC 2021"
+            des="Gained advanced knowledge of AI, deep learning, and image processing with Python through rigorous study and hands-on experience. Experimented on Databases and SQL."
           />
           <ResumeCard
-            title="Higher Secondary Education"
-            subTitle="Rustomjee International School and Junior College (2018 - 2020)"
-            result="88.15%"
-            des="Studied in this school from 11th to 12th std. HSC Subjects: PCM, English, Electrical Maintenance, Environment Education. "
+            title="Bachelor of Science (Mathematics & Computer Science)"
+            subTitle="Vivekananda Degree College, Puttur"
+            result="2016-2019"
+            des="Strengthened core computing skills by mastering problem solving, data structures (DSA), and operating systems. "
           />
           <ResumeCard
-            title="Primary & Secondary School Education"
-            subTitle="Rustomjee International School (2005 - 2018)"
-            result="94.20% "
-            des="Studied in this school from Nursery to 10th std. SSC Subjects: English, Hindi-French, Marathi, Maths, Science, Social Sciences."
+            title={
+              <a href="https://www.sololearn.com/profile/5408906/" target="_blank" rel="noopener noreferrer" >
+                SoloLearn (View profile)
+              </a>}
+            subTitle="SoloLearn, Inc."
+            result="2017 - Present"
+            des="Proudly Learnt Coding & Web Development ( HTML, CSS, Javascript) ||
+            Contributed several Optimal and Fun Code bits ||
+            Guided Sololearn Community"
           />
         </div>
       </div>
@@ -45,26 +50,36 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title=" The Complete 2023 Web Development Bootcamp By Angela Yu"
-            subTitle="Udemy - (01/01/2023 - 20/06/2023) [6 months]"
+            title={
+              <a href="https://olympus1.mygreatlearning.com/course_certificate/NSNLZOAV" target="_blank" rel="noopener noreferrer" >
+                Python For Machine Learning
+              </a>}
+            subTitle="Provided by Great Learning Academy"
             result="Online"
-            des="Learnt MERN stack and made various project using the skills in this course. Check out my Github for project info !"
+            des="Learnt Machine Learning Insights and Tools like Pandas, Numpy and Scikit-Learn!"
           />
           <ResumeCard
-            title=" Machine Learning in Python"
-            subTitle="Acmegrade (Partner Mood Indigo IIT Bombay) - (10/06/2022 - 30/08/2022) [2-3 months]"
+            title={
+              <a href="https://google.accredible.com/bf4c7ed8-5ec8-4491-837e-6b2823fc58ca" target="_blank" rel="noopener noreferrer" >
+                Google Cloud Certified Associate Cloud Engineer
+              </a>}
+            subTitle="Google Cloud [2-3 months]"
             result="Online"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in USA isn't easy."
+            des="In the course, I gained proficiency in deploying applications, overseeing operations, and responsibilities of an Associate Cloud Engineer.
+            I acquired hands-on experience utilizing both the Google Cloud Console and command-line interface to execute routine tasks on the platform."
           />
           <ResumeCard
-            title="Neo4j"
-            subTitle="GRAPHACADEMY - (Issued on 4th November 2022)"
+            title={
+              <a href="https://www.sololearn.com/Certificate/1073-5408906/jpg/" target="_blank" rel="noopener noreferrer" >
+                Python Core
+              </a>}
+            subTitle="SoloLearn"
             result="Online"
-            des=" Learned basics of Neo4j - a database management system "
+            des=" Learnt Basic to Advanced Concepts of Python"
           />
         </div>
       </div>
-    </motion.div>
+    </motion.div >
   );
 }
 

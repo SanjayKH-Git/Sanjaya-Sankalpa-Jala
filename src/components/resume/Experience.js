@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion"
 import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
@@ -11,56 +11,37 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2023 - 20XX</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2021 - Present</p>
+          <h2 className="text-4xl font-bold">Professional Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google - (20XX - Present) [Goal in my bucketlist]"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Assistant System Engineer"
+            subTitle="Tata Consultancy Services (TCS)"
+            year="[ Jan 2022 - Present ]"
+            result="Remote"
+            des="Worked as a Python Developer,  Optimized data extraction, devised efficient Multithreading Techniques, and innovated a novel GCP-File-Uploader, all contributing to heightened efficiency and performance. Provided mentorship and shared expertise with junior team members for enhanced Performances. Additionally, I have collaborated with various clients to deliver high-quality solutions that meet their unique business needs and goals."
           />
+
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (20XX - 20XX) [Goal in my bucketlist]"
-            result="USA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in USA isn't easy."
+            title="Freelance Developer"
+            subTitle=""
+            year="[ Jan 2019 - Present ]"
+            result="Remote"
+            des="Developed and delivered full-stack projects from end-to-end, including design, development, database setup, testing, and maintenance, in accordance with client requirements and specifications. Consistently exceeded expectations by delivering high-quality, user-friendly, and scalable solutions on time and within budget."
           />
+
           <ResumeCard
-            title="Data Analyst Intern"
-            subTitle="Xemi - (5/6/2023 - 5/9/2023)  [3 months]"
-            result="Mumbai, Maharashtra"
-            des="Writing Web Scrapping codes to extract required data for website’s database and training ML models. Mode of work: Hybrid."
+            title="Project Intern"
+            subTitle="CyberSapiens United LLP"
+            year="[ Oct 2021 - Dec 2021 ]"
+            result="Remote / Mangalore"
+            des="Developed Python-Django based Cyber Fraud Prevention (CPF) Remote Tool for punishing Frauds."
           />
+
         </div>
       </div>
-      <div>
-        <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">20XX - 20XX</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
-        </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="ML Instructor"
-            subTitle="ABC Platform (20XX - 20XX)"
-            result="UK"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-          <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="ABC King's College (20XX - 20XX)"
-            result="CANADA"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-          <ResumeCard
-            title="App Developer"
-            subTitle="ABC Company (20XX - 20XX)"
-            result="India"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-        </div>
-      </div>
+
     </motion.div>
   );
 };
