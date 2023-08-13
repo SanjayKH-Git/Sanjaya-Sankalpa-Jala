@@ -11,27 +11,36 @@ const Achievement = () => {
     >
       <div className="flex-1">
         <div className="py-6 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2005 - Present</p>
+          <p className="text-sm text-designColor font-bold tracking-[4px]">Click on Title to View Certificate</p>
           <h2 className="text-4xl font-bold">Accomplishments</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="MHT-CET Merit Ranker"
-            subTitle="Entrance Exam for Engineering colleges in Maharashtra (2020)"
-            result="153rd"
-            des="Bagged a whooping 153rd Rank out of 1.74 Lakh students that registered for the exam. Got a 99.89 percentile in PCM! Got admission in VJTI, Mumbai - top BTechcollege in Maharashtra."
+            title={
+              <a href="https://drive.google.com/file/d/1bJdA3lNxRQGr6LqJfHQGh9KM2guhNQ9U/view" target="_blank" rel="noopener noreferrer" >
+                Won 2nd Prize in Coding
+              </a>}
+            subTitle="Medhas (IT Fest), Besent Women’s College, Mangalore"
+            result="2018"
+            des="State Level Inter college IT Fest. Competed with 26 Teams and Successfully Completed C/C++ Coding Challenge"
           />
           <ResumeCard
-            title="SSC Merit Holder"
-            subTitle="10th Std Exam conducted by Government of Maharashtra (2018)"
-            result="94.20%"
-            des="Bagged a whooping 94.20% in SSC exam. Awarded with a trophy by Mahesh Tutorials Coaching Institute!"
+            title={
+              <a href="https://drive.google.com/file/d/167ejqFZ1i3ghmGBUlqD3Gkh814ioawJZ/view" target="_blank" rel="noopener noreferrer" >
+                TCS Gems💎- On the Spot Award
+              </a>}
+            subTitle="Award for Developing Automation Tool"
+            result="2022"
+            des="Reduced Human Efforts and Saved significant amount of Time."
           />
           <ResumeCard
-            title="Scholarship Holder"
-            subTitle="7th Std Scholarship Exam conducted by Government of Maharashtra (2015)"
-            result="206/300"
-            des="Passed with good marks in the exam and also received scholarship money till the completion of 10th std. Rank:- 33/1617 who got the scholarship (all passed students are not given scholarship)."
+            title={
+              <a href="https://drive.google.com/file/d/167ejqFZ1i3ghmGBUlqD3Gkh814ioawJZ/view" target="_blank" rel="noopener noreferrer" >
+                TCS Gems💎- Award for Extrordinary Performance
+              </a>}
+            subTitle="Appreciation for Web-Scraping Performance"
+            result="2023"
+            des="Scraped Huge Volume of data from more than 200 Websites and Developed Special MultiProcessing Technique which boosted the scraping speed."
           />
         </div>
       </div>
@@ -42,22 +51,32 @@ const Achievement = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="English Competency Analytical Test (ECAT)"
-            subTitle="5th NELTAS ECAT GRAND FINALE (2015 - 2016)"
-            result="80.5%"
-            des="Certificate awarded for meritorious performance in the exam."
+            title={
+              <a href="https://drive.google.com/file/d/1bD9pH0mIjKqZ8nvgIjh0SXeG04D2ObOi/view?usp=drive_link" target="_blank" rel="noopener noreferrer" >
+                2nd Prize in "Mad-Adds" & Finalist in "Coding"
+              </a>}
+
+            subTitle="ST Joseph Engineering College - VAMANJOOR, MANGALURU"
+            result="2019"
+            des="State Level IT-Fest, Won 2nd Prize in Group Event, Successfully tackled and cleared four challenging coding levels out of a pool of 25 participants."
           />
           <ResumeCard
-            title="The Bharat Scouts And Guides"
-            subTitle=" Course during 9th and 10th Std (2016 - 2018)"
-            result="A"
-            des="Awarded 'A' grade certificate for successfully completing the course exams."
+            title={
+              <a href="https://drive.google.com/file/d/1bYmVILICieuHLEz7fLflOR63xv4mVUva/view" target="_blank" rel="noopener noreferrer" >
+                Won 1st Prize in Ice-Breaker 🏆 (Overall Champion)
+              </a>}
+            subTitle="Viveka-Shodhana (Science Fest),
+            Vivekananda Degree College, Puttur"
+            result="2019"
+            des="District Level Inter College Science-Fest, Won 1st Prize in Ice-Breaker, Our Team Won Overall Championship."
           />
           <ResumeCard
-            title="Scholarship Exam"
-            subTitle="4th Std Scholarship Exam conducted by Government of Maharashtra (2012)"
-            result="230/300"
-            des="Passed with good marks in the exam but not received scholarship. (all passed students are not given scholarship)."
+            title="MIT-Hackathon Final Round"
+            subTitle=" “TECHNO-MILANGE” National Level
+            IT-Fest, Manipal Institute of Technology
+            (MIT), Manipal"
+            result="2019"
+            des="National Level Inter College Fest, Team of 2 Competed with 21 National Level Colleges, Rapidly Developed a fully functional full-stack web application within a single overnight session, Finished with 3rd Place."
           />
         </div>
       </div>
