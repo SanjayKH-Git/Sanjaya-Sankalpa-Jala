@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sanjaya-Sankalpa-Jala/static/css/main.98bbe8de.css",
-    "main.js": "/Sanjaya-Sankalpa-Jala/static/js/main.824346cc.js",
+    "main.css": "/Sanjaya-Sankalpa-Jala/static/css/main.2adf463e.css",
+    "main.js": "/Sanjaya-Sankalpa-Jala/static/js/main.2ed7516b.js",
     "static/media/bannerImg.png": "/Sanjaya-Sankalpa-Jala/static/media/bannerImg.156c74c6f4f1ffac6e26.png",
     "static/media/projectTwo.png": "/Sanjaya-Sankalpa-Jala/static/media/projectTwo.aa5d92dfcc91173e3f49.png",
     "static/media/projectSix.png": "/Sanjaya-Sankalpa-Jala/static/media/projectSix.7b2368dd6d834e1d5d3d.png",
@@ -13,11 +13,11 @@
     "static/media/testimonialOne.jpg": "/Sanjaya-Sankalpa-Jala/static/media/testimonialOne.a70003b7c3a357895d2c.jpg",
     "static/media/logo.png": "/Sanjaya-Sankalpa-Jala/static/media/logo.2fb0606b5d1139847252.png",
     "index.html": "/Sanjaya-Sankalpa-Jala/index.html",
-    "main.98bbe8de.css.map": "/Sanjaya-Sankalpa-Jala/static/css/main.98bbe8de.css.map",
-    "main.824346cc.js.map": "/Sanjaya-Sankalpa-Jala/static/js/main.824346cc.js.map"
+    "main.2adf463e.css.map": "/Sanjaya-Sankalpa-Jala/static/css/main.2adf463e.css.map",
+    "main.2ed7516b.js.map": "/Sanjaya-Sankalpa-Jala/static/js/main.2ed7516b.js.map"
   },
   "entrypoints": [
-    "static/css/main.98bbe8de.css",
-    "static/js/main.824346cc.js"
+    "static/css/main.2adf463e.css",
+    "static/js/main.2ed7516b.js"
   ]
 }
