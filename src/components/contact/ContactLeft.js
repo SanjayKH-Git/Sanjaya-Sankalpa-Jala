@@ -17,7 +17,7 @@ const ContactLeft = () => {
           MERN Stack Developer
         </p> */}
         <p className="text-base text-gray-400 tracking-wide">
-        You can Contact Me any time asynchronously. Contact Me on <a href="https://www.linkedin.com/in/sanjay-krishna-hegade-19216915b/" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-400'>Linked in chat</a> for Quik Response.
+        You can Contact Me any time asynchronously. Reach out Me @ <a href="https://www.linkedin.com/in/sanjay-krishna-hegade-19216915b/" target="_blank" rel="noopener noreferrer" className='font-bold text-blue-400'>Linked in chat</a> for Quik Response.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+91 9019333126</span>
