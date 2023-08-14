@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px]">
       <div className="w-16 h-16 rounded-full">
-        <img className="rounded-full" src={logo} alt="logo" />
+        <img className="rounded-full shadow-lg shadow-cyan-500/50" src={logo} alt="logo" />
       </div>
       <h1 class="mb-8 pt-8 text-lg font-extrabold items-center text-gray-900 dark:text-white md:text-2xl lg:text-3xl"><span class="p-2 text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Sanjaya-Sankalpa-Jala</span></h1>
       <div>
