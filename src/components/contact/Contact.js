@@ -109,25 +109,19 @@ const Contact = () => {
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft />
           <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
-            <table className="">
-              <tr>
-                <td className="text-center">
-                  <div className="border rounded-xl">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4 xl:gap-4">
+                  <div className="p-2 text-center border rounded-xl">
                     <b className="text-sm">Usual Active Hours: </b> <br />
                     <b className="text-purple-400">2:30 AM To 3:30 PM ( UTC/GMT )</b><br />
                     <b className="text-yellow-200 text-sm">8:00 AM To 9:00 PM ( IST )</b>
                   </div>
-                </td>
-                <td className="text-center">
-                  <div className="border rounded-xl">
+                  <div className="p-2 text-center border rounded-xl">
                     <b className="text-sm">Current Time: </b> <br />
                     <b className="text-blue-400">{currentTime}</b>
                     <br />
                     <b className="text-yellow-400 text-sm"> {istTime} ( IST )</b>
                   </div>
-                </td>
-              </tr>
-            </table>
+              </div>
 
             <div className="text-center text-xl">
               {isAvailable ? (
