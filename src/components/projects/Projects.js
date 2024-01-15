@@ -15,7 +15,7 @@ const Projects = () => {
           des="My Projects"
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Food-Price-Clash"
           des="This Web App Compares Price Between Swiggy and Zomato by Real Time (live) data streaming with Web Scraping 🕸 and Data Analysis📉.  User will get direct Suggestion as - 'Which Food Delivery site is cheaper❓' from Price-Analysis. "
