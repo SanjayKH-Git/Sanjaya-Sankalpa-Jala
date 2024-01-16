@@ -108,6 +108,7 @@ const Contact = () => {
       <div className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft />
+          <p> say</p>
           <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4 xl:gap-4">
                   <div className="p-2 text-center border rounded-xl">
