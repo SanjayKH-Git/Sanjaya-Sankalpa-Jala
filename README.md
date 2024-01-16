@@ -5,5 +5,5 @@ npm start
 ```
 
 ```bash
-npm run build
+npm run deploy
 ```
