@@ -10,7 +10,7 @@ const Experience = () => {
       className="py-12 font-titleFont flex flex-col gap-20 md:flex-row"
     >
       <div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 text-center">
           <p className="text-sm text-designColor tracking-[4px]">2021 - Present</p>
           <h2 className="text-4xl font-bold">Professional Experience</h2>
         </div>

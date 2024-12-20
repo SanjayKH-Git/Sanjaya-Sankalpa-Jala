@@ -15,7 +15,7 @@ const Resume = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="WORK EXPERIENCE" des="My Resume" />
       </div>
-      <div>
+      {/* <div>
         <ul className="w-full grid grid-cols-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
           <li
             onClick={() =>
@@ -75,12 +75,15 @@ const Resume = () => {
             Achievements
           </li>
         </ul>
-      </div>
-      {experienceData && <Experience />}
+      </div> */}
+      {/* {experienceData && <Experience />}
       {skillData && <Skills />}
       {educationData && <Education />}
-      {achievementData && <Achievement />}
-
+      {achievementData && <Achievement />} */}
+      <Experience />
+      <Skills />
+      <Education />
+      <Achievement />
     </section>
   );
 }
