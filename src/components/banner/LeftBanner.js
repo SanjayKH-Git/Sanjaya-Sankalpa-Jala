@@ -32,8 +32,7 @@ const LeftBanner = () => {
         <p className="text-base text-justify font-bodyFont leading-6 tracking-wide">
           You are <b className="text-blue-600">@</b> Right place, If You are looking for{' '}
           <b className="text-sky-300">Specialist Software Developer </b>, Specialized in custom{' '}
-          <i className="font-bold">Web Scraping🧲, Web Development🌐</i> & building{' '}
-          <i className="font-bold">AI-based Automation Tool🔨</i>.
+          <i className="font-bold">Web Scraping🧲 & Full Stack Development 🌐</i>
         </p>
       </div>
       {/* Media */}

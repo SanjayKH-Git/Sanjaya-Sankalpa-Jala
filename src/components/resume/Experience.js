@@ -15,10 +15,17 @@ const Experience = () => {
           <h2 className="text-4xl font-bold">Professional Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+         <ResumeCard
+            title="Senior Software Engineer"
+            subTitle="Euphoric Thought Technologies"
+            year="[ March 2024 - Present ]"
+            result="Remote"
+            des="Worked as a Python Developer,  Optimized data extraction, devised efficient Multithreading Techniques, and innovated a novel GCP-File-Uploader, all contributing to heightened efficiency and performance. Provided mentorship and shared expertise with junior team members for enhanced Performances. Additionally, I have collaborated with various clients to deliver high-quality solutions that meet their unique business needs and goals."
+          />
           <ResumeCard
             title="Assistant System Engineer"
             subTitle="Tata Consultancy Services (TCS)"
-            year="[ Jan 2022 - Present ]"
+            year="[ Jan 2022 - Feb 2024 ]"
             result="Remote"
             des="Worked as a Python Developer,  Optimized data extraction, devised efficient Multithreading Techniques, and innovated a novel GCP-File-Uploader, all contributing to heightened efficiency and performance. Provided mentorship and shared expertise with junior team members for enhanced Performances. Additionally, I have collaborated with various clients to deliver high-quality solutions that meet their unique business needs and goals."
           />

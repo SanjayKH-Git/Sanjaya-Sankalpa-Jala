@@ -5,7 +5,7 @@ import ResumeCard from "./ResumeCard";
 const Achievement = () => {
   return (
     <div>
-      <div className="py-6 font-titleFont flex flex-col gap-4 text-center">
+      <div className=" mt-14 py-12 font-titleFont flex flex-col gap-4 text-center">
           <p className="text-sm text-designColor font-bold tracking-[4px]">Click on Title to View Certificate</p>
           <h2 className="text-4xl font-bold">Accomplishments</h2>
       </div>
