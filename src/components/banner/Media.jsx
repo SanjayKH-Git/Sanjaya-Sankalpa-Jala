@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 import { FaLinkedinIn, FaReact, FaPython } from "react-icons/fa";
-import { SiMongodb, SiGithub, SiGmail, SiDjango, SiFastapi} from "react-icons/si";
+import { SiMongodb, SiGithub, SiGmail, SiDjango, SiFastapi } from "react-icons/si";
+
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -9,44 +10,74 @@ const Media = () => {
           Find me on
         </h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <a href="https://github.com/SanjayKH-Git/" target="_blank" rel="noopener noreferrer">
-              <SiGithub /></a>
-          </span>
-          <span className="bannerIcon">
-            <a href="mailto:sanjayhegde@gmail.com">
-              <SiGmail /></a>
-          </span>
-          <span className="bannerIcon">
-            <a href="https://www.linkedin.com/in/sanjay-krishna-hegade-19216915b/" target="_blank" rel="noopener noreferrer">
-              <FaLinkedinIn /></a>
-          </span>
+          <a
+            href="https://github.com/SanjayKH-Git/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
+            <SiGithub />
+          </a>
+          <a
+            href="mailto:sanjayhegde@gmail.com"
+            className="bannerIcon"
+          >
+            <SiGmail />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sanjay-krishna-hegade-19216915b/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
+            <FaLinkedinIn />
+          </a>
         </div>
       </div>
       <div>
-        <h2 className="text-base uppercase  font-titleFont mb-4">
+        <h2 className="text-base uppercase font-titleFont mb-4">
           Technical STACKS
         </h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <a
+            href="#"
+            className="bannerIcon"
+            title="Python"
+          >
             <FaPython />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a
+            href="#"
+            className="bannerIcon"
+            title="Django"
+          >
             <SiDjango />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a
+            href="#"
+            className="bannerIcon"
+            title="React"
+          >
             <FaReact />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a
+            href="#"
+            className="bannerIcon"
+            title="MongoDB"
+          >
             <SiMongodb />
-          </span>
-          <span className="bannerIcon">
-            <SiFastapi/>
-          </span>
+          </a>
+          <a
+            href="#"
+            className="bannerIcon"
+            title="FastAPI"
+          >
+            <SiFastapi />
+          </a>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Media
+export default Media;
