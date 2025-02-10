@@ -11,16 +11,16 @@ const Skills = () => {
       ref={ref}
       initial={{ opacity: 0 }}
       animate={isInView ? { opacity: 1, transition: { duration: 0.5 } } : {}}
-      className="w-full flex justify-center"
+      className="w-full flex justify-center mt-[540px] md:mt-[50px]"
     >
       <div className="w-full lgl:w-4/5">
         <div className="py-12 font-titleFont flex flex-col gap-4 text-center">
           <p className="text-sm text-designColor tracking-[4px] uppercase">
             Tech Stack
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold">My Skills </h2>
+          <h2 className="text-3xl md:text-4xl font-bold">My Skills</h2>
         </div>
-        <div className="mt-14 w-full flex flex-col gap-6">
+        <div className="mt-4 w-full flex flex-col gap-6">
           {[
             { label: 'Python', width: '90%', delay: 0.5 },
             { label: 'Web Scraping ( Beautifulsoup | Selenium | Playwright | requests | Scrapy | xpath )', width: '95%', delay: 0.6 },
