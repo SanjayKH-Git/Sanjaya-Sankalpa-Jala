@@ -11,7 +11,7 @@ const Skills = () => {
       ref={ref}
       initial={{ opacity: 0 }}
       animate={isInView ? { opacity: 1, transition: { duration: 0.5 } } : {}}
-      className="w-full flex justify-center mt-[540px] md:mt-[50px]"
+      className="w-full flex justify-center mt-[840px] md:mt-[60px]"
     >
       <div className="w-full lgl:w-4/5">
         <div className="py-12 font-titleFont flex flex-col gap-4 text-center">
